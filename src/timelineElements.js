@@ -108,8 +108,15 @@ let timelineElements = [
   },
   {
     id: 12,
+    title: "Bursting of the bubble",
+    description: "The NASDAQ Composite index spiked in the late 1990s and then fell sharply as a result of the dot-com bubble. By the end of the stock market downturn of 2002, stocks had lost $5 trillion in market capitalization since the peak.[57] At its trough on October 9, 2002, the NASDAQ-100 had dropped to 1,114, down 78% from its peak.",
+    date: "1999 - 2002",
+    graphic: "./bubble.png",
+    icon: "work",
+  },
+  {
+    id: 13,
     title: "Winners take all",
-    date: "2000",
     icon: "work",
     graphic: "./internet.jpg"
   },
