@@ -1,5 +1,36 @@
+.legend {
+  position: fixed;
+  right: 0;
+}
+
+.navigation {
+  position: fixed;
+  left: 0;
+  background-color: #fff;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.module-image > img {
+  width: 250px;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: block;
+}
+
+.graphic-module > img {
+  width: 100%;
+}
+
+span.date.vertical-timeline-element-date {
+  font-size: 6em !important;
+}
+
+span.date.vertical-timeline-element-date {
+  opacity: 1;
+}
+
 body {
-  background: #3da3d5;
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
   color: rgb(53, 53, 53);
@@ -9,10 +40,21 @@ body {
   font-size: 15em;
   text-align: center;
   font-family: "Bebas Neue", sans-serif;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.timeline-header {
+  width: 60%;
+  margin: 0 auto;
+  color: #fff;;
+  padding-bottom: 100px;
 }
 
 h3 {
   padding-top: 0.25em;
+  padding-right: 40px;
+  padding-left: 40px;
 }
 
 .vertical-timeline-element-content {
